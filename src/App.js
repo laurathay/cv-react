@@ -11,11 +11,13 @@ const App = () => {
   return (
     <div>
         <BrowserRouter>
-          <Route path="/" component={Home} />
-          <Route path="/competences" component={Knowledges} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route component={NotFound} />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/competences" component={Knowledges} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/contact" component={Contact} />
+            <Route component={NotFound} />
+          </Switch>
         </BrowserRouter>
     </div>
   );
