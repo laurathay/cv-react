@@ -1,11 +1,11 @@
 import React from 'react'
-import 'experience.css'
+import './experience.css'
 
 const Experience = () => {
     return (
-        <div>
+        <section id='experience'>
             <p> Experiences </p>
-        </div>
+        </section>
     )
 }
 
