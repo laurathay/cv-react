@@ -7,7 +7,7 @@ import {TiFolder} from 'react-icons/ti'
 
 const About = () => {
     return (
-        <section id='about'>
+        <section id="about">
             <h5> Get To Know</h5>
             <h2> About Me </h2>
 
