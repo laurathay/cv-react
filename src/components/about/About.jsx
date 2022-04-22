@@ -1,10 +1,51 @@
 import React from 'react'
 import './about.css'
+import ME from '../../assets/me.jpg'
+import {FiAward} from 'react-icons/fi'
+import {FiUsers} from 'react-icons/fi'
+import {TiFolder} from 'react-icons/ti'
 
 const About = () => {
     return (
         <section id='about'>
-            <p> About </p>
+            <h5> Get To Know</h5>
+            <h2> About Me </h2>
+
+            <div className="container about__container">
+                <div className="about__me">
+                    <div className="about__me-image">
+                        <img src={ME} alt="About Image"/>
+                    </div>
+                </div>
+
+                <div className="about__content">
+                    <div className="about__cards">
+                        <article className="about__card">
+                            <FiAward className="about__icon"/>    
+                            <h5> Experience </h5>
+                            <small> 1+ Years Working</small>
+                        </article>
+
+                        <article className="about__card">
+                            <FiUsers className="about__icon"/>    
+                            <h5> Client </h5>
+                            <small> 2+ France </small>
+                        </article>
+
+                        <article className="about__card">
+                            <TiFolder className="about__icon"/>    
+                            <h5> Projects </h5>
+                            <small> 5+ Completed</small>
+                        </article>
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, temporibus enim dolore ab quasi repellendus est illum vitae quae, distinctio, quisquam autem velit. Aut accusantium quas repellat soluta, repellendus illum!
+                    </p>
+
+                    <a href="#contact" className="btn btn-primary"> Let's Talk </a>
+                </div>
+            </div>
         </section>
     )
 }
