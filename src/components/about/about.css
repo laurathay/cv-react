@@ -42,8 +42,8 @@
     transition: var(--transition);
 }
 
-.abour__card:hover {
-    background: transparent;
+.about__card:hover {
+    background: #EDD0A6;;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -67,7 +67,7 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
-
+/* ****************************************************** */
 /* ******** MEDIA QUERIES (MEDIUM DEVICES) ************* */
 
 @media screen and (max-width: 1024px) {
