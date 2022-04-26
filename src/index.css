@@ -59,7 +59,6 @@ h1 {
 /* gives each section a size with the height */
 section {
     margin-top: 6rem;
-    height: 100vh;
 }
 
 section > h2, section > h5 {
