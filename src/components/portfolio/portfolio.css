@@ -1,0 +1,26 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+/* ******** MEDIA QUERIES (MEDIUM DEVICES) ************* */
+
+@media screen and (max-width: 1024px) {
+    .service__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .service {
+        height: auto;
+    }
+
+    .experience__content {
+        padding: 1rem;
+    }
+}
+/* ******** MEDIA QUERIES (SMALL DEVICES) ************* */
+
+@media screen and (max-width: 600px) {
+}
