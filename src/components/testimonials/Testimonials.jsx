@@ -7,6 +7,14 @@ import AVTR6 from '../../assets/AVTR6.JPG'
 import AVTR5 from '../../assets/AVTR5.JPG'
 import AVTR9 from '../../assets/AVTR9.jpeg'
 
+import { Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide, SwiperSlider } from 'swiper/react';
+
+// import Swiper and modules styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 const Testimonials = () => {
 
     const data = [
@@ -47,24 +55,28 @@ const Testimonials = () => {
             <h5>My world tour</h5>
             <h2> Testimonials</h2>
 
-            <div className="container testimonials__container">
-              {
-                  data.map(({avatar, name, review}, index) => {
-                      return (
-                        <article key={index} className="testimonial">
+            <Swiper className="container testimonials__container"
+            // install Swiper modules
+            modules={[ Pagination]} spaceBetween={40}
+            slidesPerView={1}
+            pagination={{ clickable: true }}>
+            {
+                data.map(({avatar, name, review}, index) => {
+                    return (
+                    <SwiperSlide key={index} className="testimonial">
                         <div className="client__avatar">
                             <img src={avatar}/>
                         </div>
-                      <h5 className="client__name"> {name}</h5>
+                        <h5 className="client__name"> {name}</h5>
                             <small className="client__review">
                                 {review}
                             </small>
-                    </article>
-                      )
-                  })
-              }
+                    </SwiperSlide>
+                    )
+                })
+            }
 
-            </div>
+            </Swiper>
         </section>
     )
 }
