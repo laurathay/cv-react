@@ -38,11 +38,25 @@ const About = () => {
                             <small> 5+ Completed</small>
                         </article>
                     </div>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, temporibus enim dolore ab quasi repellendus est illum vitae quae, distinctio, quisquam autem velit. Aut accusantium quas repellat soluta, repellendus illum!
+                    <hr/>
+                    <p className="about_description">
+                    Web designer integrator/ developer at Schoolab during my master degree in web development at Hetic. 
                     </p>
-
+                    <p className="about_description">
+                    Autodidact and followed a formation of coding (HTML/ CSS/ JavaScript/ PHP/ Agile method) 
+                    at Les Descodeuses, first coding school for women in France because everything is better mixed 
+                    - little reminder: only 10% of woman in the tech industry (not counting digital marketing and web design otherwise it would be 30%).
+                    </p>
+                    Part-time freelance for website creation or redesign. DM me up for any request!
+                    <p className="about_description">
+                    Coming back from my 2-year world tour after graduating from my master's degree in digital marketing. 
+                    I developed a passion for the tourism industry as it is the only sector that combines travel, language, and diversity. 
+                    I have great skills in socializing and occupied a mix of marketing jobs ( involving editing newsletters, community management, benchmark, infographics) 
+                    around the world to match all the cultural differences and understand what works best for the customers.
+                    </p>
+                    <p className="about_description">
+                    Passionate and dynamic, I helped oversee different website projects (using Bootstrap, ACF on Wordpress) and analyzed the benefits of the latter in order to always improve the action/supports and enrich them with recommendations for future projects.                    </p>
+                    <hr/>
                     <a href="#contact" className="btn btn-primary"> Let's Talk </a>
                 </div>
             </div>

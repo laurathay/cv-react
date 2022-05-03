@@ -1,6 +1,6 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 25% 60%;
     gap: 15%;
 }
 /* ------- PICTURE ---------- */
@@ -66,6 +66,18 @@
 .about__card p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.about__description {
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+}
+
+hr{
+    width:50px;
+    border: none;
+    border-bottom: 1px solid rgba(119, 119, 119, 0.25)
 }
 /* ****************************************************** */
 /* ******** MEDIA QUERIES (MEDIUM DEVICES) ************* */

@@ -17,23 +17,23 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Wireframes. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> User stories. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Information architecture. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Mobile First. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Offering possibilities according needs. </p>
                         </li>
                     </ul>
                 </article>
@@ -47,23 +47,23 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Possibility of website from scratch (code only). </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Websites with Wordpress. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Teaching my clients about using Wordpress. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Creating smooth landing pages. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Working as a team player. </p>
                         </li>
                     </ul>
                 </article>
@@ -76,23 +76,23 @@ const Services = () => {
                     <ul className='service__list'>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> I have created a travel blog myself. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Practicing my skills on Figma. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Used to do some infographics on Photoshop/ Illustrator. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Worked as a content creator in product maketing in a SaaS company. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon'/>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                            <p> Worked as a community manager worlwide (principally on Instagram). </p>
                         </li>
                     </ul>
                 </article>

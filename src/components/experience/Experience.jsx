@@ -38,7 +38,7 @@ const Experience = () => {
                         <CgCheckO className='experience__details-icon' />
                         <div>
                             <h4> JavaScript </h4>
-                            <small className="text-light">Experienced </small>
+                            <small className="text-light">Beginner </small>
                         </div>
                     </article>
                     <article className="experience__details">
@@ -59,21 +59,21 @@ const Experience = () => {
                             <CgCheckO />
                             <div>
                                 <h4> PHP </h4>
-                            <small className="text-light">Experienced </small>
+                            <small className="text-light">Beginner </small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <CgCheckO />
                             <div>
                                 <h4> NodeJs </h4>
-                                <small className="text-light">Experienced </small>
+                                <small className="text-light">Beginner </small>
                             </div>
                         </article>
                         <article className="experience__details">
                             <CgCheckO />
                             <div>
                                 <h4> MySQL </h4>
-                                <small className="text-light">Experienced </small>
+                                <small className="text-light">Practiced </small>
                             </div>
                         </article>
                     </div>
