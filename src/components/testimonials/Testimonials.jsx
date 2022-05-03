@@ -26,26 +26,26 @@ const Testimonials = () => {
         {
             avatar: AVTR2,
             name: 'Sydney',
-            review : 'Spent 6 months there doing an internship for Pelago, an event platform, selling tickets for event as a digital marketing junior',
+            review : 'Spent 1 year and half working as a waitress and doing for my farm work to to provide my world tour',
         },
         {
             avatar: AVTR3,
-            name: 'Cebu',
-            review : 'Spent 6 months there doing an internship for Pelago, an event platform, selling tickets for event as a digital marketing junior',
+            name: 'Phillipines',
+            review : 'Spent 1 month there touring the islands',
         },
         {
             avatar: AVTR6,
-            name: 'Gili Air',
-            review : 'Spent 6 months there doing an internship for Pelago, an event platform, selling tickets for event as a digital marketing junior',
+            name: 'Bali',
+            review : 'Spent 6 months there doing an internship for Pro Surf School, a surf camp, as a community manager',
         },
         {
             avatar: AVTR5,
             name: 'Salar de Uyuni',
-            review : 'Spent 6 months there doing an internship for Pelago, an event platform, selling tickets for event as a digital marketing junior',
+            review : 'Started my world tour in South America touring Brazil, Peru and Bolivia',
         },
         {
             avatar: AVTR9,
-            name: 'Hong-Kong',
+            name: 'Food',
             review : 'Spent 6 months there doing an internship for Pelago, an event platform, selling tickets for event as a digital marketing junior',
         },
     ]
