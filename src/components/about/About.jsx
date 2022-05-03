@@ -16,7 +16,33 @@ const About = () => {
                     <div className="about__me-image">
                         <img src={ME} alt="About Image"/>
                     </div>
+        {/* a bit of animation */}
+        <div className="about__animation">
+            <div className="perspective-text">
+                <div className="perspective-line">
+                    <p></p>
+                    <p>Working</p>
                 </div>
+                <div className="perspective-line">
+                    <p>Working</p>
+                    <p>Is Only</p>
+                </div>
+                <div className="perspective-line">
+                    <p>Is Only</p>
+                    <p>A Matter Of</p>
+                </div>
+                <div className="perspective-line">
+                    <p>A Matter Of</p>
+                    <p>Perception</p>
+                </div>
+                <div className="perspective-line">
+                    <p>Perception</p>
+                    <p></p>
+                </div>
+                </div>
+            </div>
+        </div>
+
 
                 <div className="about__content">
                     <div className="about__cards">
