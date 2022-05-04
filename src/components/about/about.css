@@ -10,7 +10,7 @@
     border-radius: 2rem;
     background: linear-gradient(45deg, transparet, var(--color-primary), transparent);
     display: grid;
-    place-items: center;
+    place-items: start;
 }
 
 .about__me-image {
@@ -32,7 +32,7 @@
     /* overflow: hidden; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
+    margin-top: 300px;
 }
 
 .perspective-text {

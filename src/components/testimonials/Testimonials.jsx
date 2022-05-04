@@ -46,7 +46,7 @@ const Testimonials = () => {
         {
             avatar: AVTR9,
             name: 'Food',
-            review : 'Spent 6 months there doing an internship for Pelago, an event platform, selling tickets for event as a digital marketing junior',
+            review : 'From Pao de queijo to Banh mi with a bit of Pasta alla gricia or Nasi Goreng, here are my favorites worldwide.',
         },
     ]
 
