@@ -82,4 +82,8 @@ const Portfolio = () => {
     )
 }
 
+
+// links
+//https://www.youtube.com/watch?v=G-Cr00UYokU
+// https://www.youtube.com/watch?v=pS0v5eY7W9k&t=1715s
 export default Portfolio
