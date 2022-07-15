@@ -49,7 +49,7 @@ const data = [
         image: IMG6,
         title: 'Schoolab redesign',
         github: 'http://github.com',
-        demo: 'https://schoolab.com'
+        demo: 'https://www.theschoolab.com/'
     }
 ]
 
@@ -82,8 +82,4 @@ const Portfolio = () => {
     )
 }
 
-
-// links
-//https://www.youtube.com/watch?v=G-Cr00UYokU
-// https://www.youtube.com/watch?v=pS0v5eY7W9k&t=1715s
 export default Portfolio

@@ -6,9 +6,9 @@ import {FaDribbble} from 'react-icons/fa'
 const HeaderSocial = () => {
     return (
         <div className='header__socials'>
-            <a href="https://linkedin.com" target="_blank"><FiLinkedin /></a>
-            <a href="https://github.com" target="_blank"><FiGithub /></a>
-            <a href="https://dribble.com" target="_blank"><FaDribbble /></a>
+            <a href="https://www.linkedin.com/in/laura-thay-215439a7/" target="_blank"><FiLinkedin /></a>
+            <a href="https://github.com/laurathay" target="_blank"><FiGithub /></a>
+            <a href="https://dribbble.com/laurathay" target="_blank"><FaDribbble /></a>
             
         </div>
     )

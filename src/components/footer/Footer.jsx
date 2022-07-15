@@ -7,7 +7,7 @@ import {GrInstagram} from 'react-icons/gr'
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className='footer_logo'> LOGO </a>
+            <a href="#" className='footer_logo'></a>
             <ul className='permalinks'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -19,9 +19,9 @@ const Footer = () => {
             </ul>
 
             <div className="footer__socials">
-                <a href="https://instagram.com"> <GrInstagram /> </a>
-                <a href="https://linkedin.com"> <FaLinkedinIn/></a>
-                <a href="https://github.com"> <VscGithub /> </a>
+                <a href="https://www.instagram.com/laurathay/"> <GrInstagram /> </a>
+                <a href="https://www.linkedin.com/in/laura-thay-215439a7/"> <FaLinkedinIn/></a>
+                <a href="https://github.com/laurathay"> <VscGithub /> </a>
             </div>
         </footer>
     )
